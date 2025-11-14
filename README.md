@@ -47,7 +47,7 @@ El `LevelManager` detecta cuándo se cumplen los objetivos de cada nivel y detie
 - El juego puede descargarse y ejecutarse a través de un instalador específico para Windows. Simplemente ejecute el archivo instalador y siga las instrucciones en pantalla.
 
 ### Mac
-- Para Mac, descargue la carpeta comprimida (zip enviada por el autor), descomprímala y ejecute el archivo del juego desde la carpeta resultante.
+- Para Mac no tenemos soprte aún.
 
 ## Créditos y Recursos de Terceros
 - El proyecto utiliza recursos de terceros incluidos en la carpeta `ImportedAssets/` (modelos, texturas, efectos, etc.). Consulte los archivos `readme.txt` y documentación dentro de cada subcarpeta para más detalles y licencias.
