@@ -96,7 +96,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 161984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74ff3e04f22e7904f92cae0ef95d10b5, type: 3}
+  m_Script: {fileID: 11500000, guid: bc240aaf11435524a91fe30216775faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   explosionRadius: 5
@@ -104,9 +104,9 @@ MonoBehaviour:
   explosionForce: 500
   explosionEffect: {fileID: 100008, guid: 7075bd5fe1480184695a32611c15da57, type: 3}
   explosionSound: {fileID: 8300000, guid: a5f556a93c282834b941b18ef993dce2, type: 3}
-  explosionSoundVolume: 1
+  explosionSoundVolume: 2.5
   barrelAudioSource: {fileID: 4260309020692110859}
-  destroyDelay: 0.1
+  destroyDelay: 0.2
   showDebugGizmos: 1
 --- !u!54 &-2537255402465508486
 Rigidbody:

@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8154748646402248973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09464eb1e75dce43a5b9b6137dd91d7, type: 3}
+  m_Script: {fileID: 11500000, guid: ae10e58c9b5f2914690e410baf784758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   explode: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
   explodeDamage: 1.5
   hitboxMask:
     serializedVersion: 2
-    m_Bits: 3041
+    m_Bits: 1001
   ShowDebugGizmos: 1
   explosionEffect: {fileID: 100008, guid: 7075bd5fe1480184695a32611c15da57, type: 3}
   explosionSound: {fileID: 8300000, guid: 992fc45e398d9ff44ab0d41e0f2f09d4, type: 3}

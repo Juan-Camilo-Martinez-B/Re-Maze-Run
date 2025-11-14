@@ -59,7 +59,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5668379645781201426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d060148ab7ea2b849bb2316e7578ae95, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5d786ae470f3b45a5b5ed50166a0ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPower: 100
@@ -67,10 +67,12 @@ MonoBehaviour:
   bulletDamage: 1
   hitboxMask:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 512
   shooter: {fileID: 0}
   shooterIgnoreDuration: 0.15
   hitEffect: {fileID: 100002, guid: 957385c45b877e645a128e11a3efb2f9, type: 3}
+  hitSound: {fileID: 0}
+  hitSoundVolume: 1
 --- !u!1001 &7450247774885217909
 PrefabInstance:
   m_ObjectHideFlags: 0

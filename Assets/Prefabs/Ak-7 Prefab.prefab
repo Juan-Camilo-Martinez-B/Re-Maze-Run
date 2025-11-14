@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6272303034421696214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f807cbd7453c1b4d8a8e24687064c1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 742b44319e609994eadb9ad4c3f8d9a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shootSpawn: {fileID: 5422050213874716135}
@@ -90,7 +90,7 @@ MonoBehaviour:
   muzzleFlashPrefab: {fileID: 100002, guid: eb553b67921c92649ac7dbbc561e2047, type: 3}
   muzzleFlashLifetime: 0.15
   shootSound: {fileID: 8300000, guid: 8639b2fff78abce40b31348d6bb6de50, type: 3}
-  shootSoundVolume: 0.5
+  shootSoundVolume: 1
   weaponAudioSource: {fileID: 7987064237659920092}
   maxShootDistance: 100
   aimMask:

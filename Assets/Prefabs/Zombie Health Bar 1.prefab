@@ -265,11 +265,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7649327196332120971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d2accb2b900a6f45bbd77a3e382a728, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cfeffe29bcea1d4cbf0c9a3cf984380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   zombie: {fileID: 0}
   healthBarFill: {fileID: 5864962887519331661}
-  rectTransform: {fileID: 7839791731189291380}
+  rectTransform: {fileID: 2664952914131470682}
   offset: {x: 0, y: 2, z: 0}
   alwaysFaceCamera: 1
