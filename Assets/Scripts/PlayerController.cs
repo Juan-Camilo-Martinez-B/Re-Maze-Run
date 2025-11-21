@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public float maxHealth = 100f;
     public float currentHealth;
     public float playerSpeed = 0f;
+    public float collisionPushImpulse = 2f;
     
     [Header("Sprint")]
     public float sprintMultiplier = 2f; // Multiplicador cuando tiene armas equipadas
@@ -497,6 +498,16 @@ public class PlayerController : MonoBehaviour
             nearItem = null;
         }
         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Rigidbody rb = collision.rigidbody;
+        if (rb == null || rb.isKinematic) return;
+        Vector3 dir = playerRb.velocity;
+        if (dir.sqrMagnitude <= 0.0001f) return;
+        Vector3 point = collision.GetContact(0).point;
+        rb.AddForceAtPosition(dir.normalized * collisionPushImpulse, point, ForceMode.Impulse);
     }
 
 

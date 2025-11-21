@@ -13,6 +13,7 @@ public class BulletController : MonoBehaviour
     private float time = 0f;
 
     public float bulletDamage = 1f;
+    public float impactForce = 10f;
 
     Vector3 lastBulletPos;
 
@@ -118,6 +119,13 @@ public class BulletController : MonoBehaviour
             if (barrel != null)
             {
                 barrel.TakeHit();
+            }
+
+            Rigidbody hitRb = hit.rigidbody;
+            if (hitRb != null && !hitRb.isKinematic)
+            {
+                Vector3 dir = (bulletRb != null && bulletRb.velocity.sqrMagnitude > 0f) ? bulletRb.velocity.normalized : bulletDirection.normalized;
+                hitRb.AddForceAtPosition(dir * impactForce, hit.point, ForceMode.Impulse);
             }
 
             // Efectos de impacto
